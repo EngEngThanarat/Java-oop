@@ -10,7 +10,15 @@ class Employee {
     //Default constructor
     //show when you create object
     public Employee(){
+        System.out.println("I'm Employee");
     }
+
+    public Employee(String name,Double salary){
+        this.Name=name ;
+        this.Salary=salary;
+        disPlayEmployee();
+    }
+    
     public Employee(String id,String name,Double salary){
         this.Id=id;
         this.Name=name;

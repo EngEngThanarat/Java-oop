@@ -1,5 +1,5 @@
 public class main {
-    public static void main(String [] args){
+    public static void main(String[] args){
         System.out.println("Company name : "+Company.name+"\nCreate in : "+Company.create);
         Company.service();
         System.out.println("---------------------------------------------------");
@@ -16,18 +16,13 @@ public class main {
         System.out.println("ID = "+e2.getId()+"\nName = "+e2.getName()+"\nSalary = "+e2.getSalary());
 
         System.out.println("---------------------------------------------------");
-        
-        Programmer pg = new Programmer(); //create object
-        pg.setName("ice");
-        pg.setSalary(45000.0);
-        pg.disPlayEmployee();
 
+        Programmer pg = new Programmer("Min",100000.0); //create object
+        
         System.out.println("---------------------------------------------------");
 
-        Accounting ac = new Accounting();
-        ac.setName("Kin");
-        ac.setSalary(30000.0);
-        ac.disPlayEmployee();
+        Accounting ac = new Accounting("Kin",20000.0);
+        
         System.out.println("---------------------------------------------------");
     }
 
