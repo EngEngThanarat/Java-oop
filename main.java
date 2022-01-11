@@ -1,6 +1,7 @@
 public class main {
     public static void main(String[] args){
-        System.out.println("Company name : "+Company.name+"\nCreate in : "+Company.create);
+        System.out.println("Company name : "+Company.NAME);
+        System.out.println("Create in : "+Company.create);
         Company.service();
         System.out.println("---------------------------------------------------");
 

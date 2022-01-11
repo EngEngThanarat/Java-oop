@@ -1,5 +1,7 @@
 public class Company {
-    static String name = "EngEng Start up";
+    //attibute
+    static final String NAME = "EngEng Start up"; 
+    //input final cannot set NAME
     static String create = "2021";
 
     static void service(){
