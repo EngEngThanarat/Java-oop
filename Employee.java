@@ -1,10 +1,11 @@
-class Employee {
+class Employee { 
+    //If input final front class cannot do subclass (Class programmer,Class Accounting)
     //Attribute 
     private String Id;
     private String Name;
     private Double Salary;
 
-    //Static Attribue
+    //Static Attribute
     static int minSalary=10000;
 
     //Default constructor
